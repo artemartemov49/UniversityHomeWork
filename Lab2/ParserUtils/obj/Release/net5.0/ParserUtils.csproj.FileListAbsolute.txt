@@ -1,0 +1,5 @@
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\ParserUtils\obj\Release\net5.0\ParserUtils.GeneratedMSBuildEditorConfig.editorconfig
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\ParserUtils\obj\Release\net5.0\ParserUtils.AssemblyInfoInputs.cache
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\ParserUtils\obj\Release\net5.0\ParserUtils.AssemblyInfo.cs
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\ParserUtils\obj\Release\net5.0\ParserUtils.csproj.CoreCompileInputs.cache
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\ParserUtils\obj\Release\net5.0\ParserUtils.csproj.AssemblyReference.cache

@@ -1,0 +1,5 @@
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\FigureAndPintTask\obj\Release\net5.0\FigureAndPintTask.csproj.AssemblyReference.cache
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\FigureAndPintTask\obj\Release\net5.0\FigureAndPintTask.GeneratedMSBuildEditorConfig.editorconfig
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\FigureAndPintTask\obj\Release\net5.0\FigureAndPintTask.AssemblyInfoInputs.cache
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\FigureAndPintTask\obj\Release\net5.0\FigureAndPintTask.AssemblyInfo.cs
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\FigureAndPintTask\obj\Release\net5.0\FigureAndPintTask.csproj.CoreCompileInputs.cache

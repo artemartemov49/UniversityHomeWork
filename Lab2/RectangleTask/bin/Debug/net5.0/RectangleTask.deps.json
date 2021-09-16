@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "RectangleTask/1.0.0": {
+        "dependencies": {
+          "ParserUtils": "1.0.0"
+        },
+        "runtime": {
+          "RectangleTask.dll": {}
+        }
+      },
+      "ParserUtils/1.0.0": {
+        "runtime": {
+          "ParserUtils.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RectangleTask/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ParserUtils/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

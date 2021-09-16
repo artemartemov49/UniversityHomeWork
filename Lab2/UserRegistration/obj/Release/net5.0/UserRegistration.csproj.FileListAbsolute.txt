@@ -1,0 +1,5 @@
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\UserRegistration\obj\Release\net5.0\UserRegistration.GeneratedMSBuildEditorConfig.editorconfig
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\UserRegistration\obj\Release\net5.0\UserRegistration.AssemblyInfoInputs.cache
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\UserRegistration\obj\Release\net5.0\UserRegistration.AssemblyInfo.cs
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\UserRegistration\obj\Release\net5.0\UserRegistration.csproj.CoreCompileInputs.cache
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\UserRegistration\obj\Release\net5.0\UserRegistration.csproj.AssemblyReference.cache

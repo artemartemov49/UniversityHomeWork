@@ -1,0 +1,5 @@
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\RectangleTask\obj\Release\net5.0\RectangleTask.csproj.AssemblyReference.cache
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\RectangleTask\obj\Release\net5.0\RectangleTask.GeneratedMSBuildEditorConfig.editorconfig
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\RectangleTask\obj\Release\net5.0\RectangleTask.AssemblyInfoInputs.cache
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\RectangleTask\obj\Release\net5.0\RectangleTask.AssemblyInfo.cs
+J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\RectangleTask\obj\Release\net5.0\RectangleTask.csproj.CoreCompileInputs.cache
