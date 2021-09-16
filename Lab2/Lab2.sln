@@ -11,15 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "3BookTask", "BookTask\3Book
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "2RectangleTask", "RectangleTask\2RectangleTask.csproj", "{AA443524-8377-40BB-A9DC-EE59F3008AF5}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4FigureAndPintTask", "FigureAndPintTask\4FigureAndPintTask.csproj", "{AB89B136-FDBB-4EA6-BE5F-8B8F584756DF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "4FigureAndPointTask", "FigureAndPintTask\4FigureAndPointTask.csproj", "{AB89B136-FDBB-4EA6-BE5F-8B8F584756DF}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "5UserRegistration", "UserRegistration\5UserRegistration.csproj", "{D00110FF-BB81-4D92-BA1F-BF8CECB3DDD7}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "6CurrencyConverterTask", "CurrencyConverterTask\6CurrencyConverterTask.csproj", "{F39C7538-CE13-4547-B212-91F254869838}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "7EmployeeTask", "EmployeeTask\7EmployeeTask.csproj", "{5D99A05C-0527-4FD5-8C85-5A4333501290}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "7EmployeeTask", "EmployeeTask\7EmployeeTask.csproj", "{5D99A05C-0527-4FD5-8C85-5A4333501290}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "8InvoiceTask", "InvoiceTask\8InvoiceTask.csproj", "{94CEF51F-1380-4776-B2F5-DBA81B5D5C77}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8InvoiceTask", "InvoiceTask\8InvoiceTask.csproj", "{94CEF51F-1380-4776-B2F5-DBA81B5D5C77}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
