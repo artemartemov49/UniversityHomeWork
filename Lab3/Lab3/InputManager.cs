@@ -9,7 +9,7 @@ namespace Lab3
     {
         public static FormulaEntity GetFormula()
         {
-            Console.WriteLine("Hello enter numbers to calculate: ");
+            Console.WriteLine("Hello! Enter numbers to calculate: ");
             while (true)
             {
                 var line = Parser.ParseLine();
