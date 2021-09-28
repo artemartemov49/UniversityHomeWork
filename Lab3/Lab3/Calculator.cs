@@ -1,13 +1,9 @@
 ﻿using System;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Lab3
 {
     public static class Calculator
     {
-        
         public static void Calculate(FormulaEntity formula)
         {
             var v1 = formula.FirstNumber;

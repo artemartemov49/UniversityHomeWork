@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Linq;
-using System.Text.RegularExpressions;
 using static Lab3.Validator;
 
 namespace Lab3
@@ -24,13 +22,13 @@ namespace Lab3
 
         private static FormulaEntity BuildEntity(string formula)
         {
-            var firstNumber = decimal.Parse(RegexGroupValue(formula, 1));
-            var charSpliterator = char.Parse(RegexGroupValue(formula, 2));
-            var secondNumber = decimal.Parse(RegexGroupValue(formula, 3));
-            return new FormulaEntity(firstNumber, charSpliterator, secondNumber);
+            var firstNumber = decimal.Parse(GetRegexGroupValue(formula, 1));
+            var symbol = char.Parse(GetRegexGroupValue(formula, 2));
+            var secondNumber = decimal.Parse(GetRegexGroupValue(formula, 3));
+            return new FormulaEntity(firstNumber, symbol, secondNumber);
         }
 
-        private static string RegexGroupValue(string formula, int index)
+        private static string GetRegexGroupValue(string formula, int index)
         {
             return Formula.Match(formula).Groups[index].Value;
         }
