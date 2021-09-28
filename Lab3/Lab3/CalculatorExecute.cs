@@ -6,8 +6,8 @@ namespace Lab3
     {
         static void Main(string[] args)
         {
-            var formulaEntity = InputManager.GetFormula();
-            Calculator.Calculate(formulaEntity);
+            var formula = InputManager.GetFormula();
+            Calculator.Calculate(formula);
         }
     }
 }
