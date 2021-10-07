@@ -10,15 +10,3 @@ J:\Artem\study\фит\Уроки\сейчас\программирование\L
 J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\ParserUtils\obj\Debug\net5.0\ParserUtils.dll
 J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\ParserUtils\obj\Debug\net5.0\ref\ParserUtils.dll
 J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\ParserUtils\obj\Debug\net5.0\ParserUtils.pdb
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\bin\Debug\net5.0\ParserUtils.deps.json
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\bin\Debug\net5.0\ParserUtils.dll
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\bin\Debug\net5.0\ref\ParserUtils.dll
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\bin\Debug\net5.0\ParserUtils.pdb
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\obj\Debug\net5.0\ParserUtils.csproj.AssemblyReference.cache
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\obj\Debug\net5.0\ParserUtils.GeneratedMSBuildEditorConfig.editorconfig
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\obj\Debug\net5.0\ParserUtils.AssemblyInfoInputs.cache
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\obj\Debug\net5.0\ParserUtils.AssemblyInfo.cs
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\obj\Debug\net5.0\ParserUtils.csproj.CoreCompileInputs.cache
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\obj\Debug\net5.0\ParserUtils.dll
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\obj\Debug\net5.0\ref\ParserUtils.dll
-J:\Artem\study\gitRepForProgramming\Lab2\ParserUtils\obj\Debug\net5.0\ParserUtils.pdb
