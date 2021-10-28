@@ -114,16 +114,6 @@ namespace Task1
             PrintInfo();
         }
 
-        private int TurnX(int deg, int x, int y)
-        {
-            return (int) (Math.Cos(deg) * x - Math.Sin(deg) * y);
-        }
-
-        private int TurnY(int deg, int x, int y)
-        {
-            return (int) (Math.Cos(deg) * x + Math.Cos(deg) * y);
-        }
-
         public override void PrintInfo()
         {
             Console.WriteLine($"Location of left angle: x - {X}, y - {Y}");
