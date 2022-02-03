@@ -1,5 +1,0 @@
-J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\BookTask\obj\Debug\net5.0\BookTask.csproj.AssemblyReference.cache
-J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\BookTask\obj\Debug\net5.0\BookTask.GeneratedMSBuildEditorConfig.editorconfig
-J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\BookTask\obj\Debug\net5.0\BookTask.AssemblyInfoInputs.cache
-J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\BookTask\obj\Debug\net5.0\BookTask.AssemblyInfo.cs
-J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\BookTask\obj\Debug\net5.0\BookTask.csproj.CoreCompileInputs.cache

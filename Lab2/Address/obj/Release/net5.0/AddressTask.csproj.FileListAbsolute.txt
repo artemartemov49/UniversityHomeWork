@@ -1,4 +1,0 @@
-J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\Address\obj\Release\net5.0\AddressTask.GeneratedMSBuildEditorConfig.editorconfig
-J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\Address\obj\Release\net5.0\AddressTask.AssemblyInfoInputs.cache
-J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\Address\obj\Release\net5.0\AddressTask.AssemblyInfo.cs
-J:\Artem\study\фит\Уроки\сейчас\программирование\Lab2\Address\obj\Release\net5.0\AddressTask.csproj.CoreCompileInputs.cache
