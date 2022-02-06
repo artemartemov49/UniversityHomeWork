@@ -3,20 +3,20 @@
     internal class MyDictionary<TKey, TValue> : IMyDictionary<TKey, TValue> where TKey : notnull
     {
         private const int DefaultCapacity = 16;
-        private int capacity;
-        private int elementsCount = 0;
+        private int _capacity;
+        private int _elementsCount = 0;
         private Node<TKey, TValue>[] _nodes;
 
 
         public MyDictionary()
         {
-            capacity = DefaultCapacity;
-            _nodes = new Node<TKey, TValue>[capacity];
+            _capacity = DefaultCapacity;
+            _nodes = new Node<TKey, TValue>[_capacity];
         }
 
         public MyDictionary(int capacity)
         {
-            this.capacity = capacity;
+            this._capacity = capacity;
             _nodes = new Node<TKey, TValue>[capacity];
         }
 
@@ -41,7 +41,7 @@
             var hash = Hash(key);
             var node = _nodes[hash];
 
-            if (capacity <= elementsCount)
+            if (_capacity <= _elementsCount)
             {
                 _nodes = resize();
             }
@@ -69,7 +69,7 @@
                 node.Next ??= new Node<TKey, TValue>(hash, key, value);
             }
 
-            elementsCount++;
+            _elementsCount++;
             return key;
         }
 
@@ -95,9 +95,9 @@
 
         private Node<TKey, TValue>[] resize()
         {
-            int newCap = capacity > DefaultCapacity
-                ? capacity + (capacity / 2)
-                : DefaultCapacity + (capacity / 2);
+            int newCap = _capacity > DefaultCapacity
+                ? _capacity + (_capacity / 2)
+                : DefaultCapacity + (_capacity / 2);
             var newNodes = new Node<TKey, TValue>[newCap];
 
 
@@ -109,13 +109,13 @@
                 }
             }
 
-            capacity = newCap;
+            _capacity = newCap;
             return newNodes;
         }
 
         private int Hash(TKey key)
         {
-            return Math.Abs(key.GetHashCode()) % capacity;
+            return Math.Abs(key.GetHashCode()) % _capacity;
         }
     }
 }

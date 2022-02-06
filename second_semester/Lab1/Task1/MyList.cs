@@ -1,16 +1,9 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Task1
+﻿namespace Task1
 {
-    internal class MyList<T> : IMyList<T>
+    public class MyList<T> : IMyList<T>
     {
         private T?[] _items;
-        private int _size;
+        public int Size;
 
         private const int DefaultCapacity = 10;
         private static readonly T[] EmptyElement = new T[0];
@@ -33,14 +26,14 @@ namespace Task1
 
         public void Add(T item)
         {
-            if (_items.Length > _size)
+            if (_items.Length > Size)
             {
-                _items[_size++] = item;
+                _items[Size++] = item;
             }
             else
             {
                 ExpandArray(2);
-                _items[_size++] = item;
+                _items[Size++] = item;
             }
         }
 
@@ -53,6 +46,7 @@ namespace Task1
         {
             return IndexOf(o) >= 0;
         }
+
 
         private int IndexOf(T o)
         {
