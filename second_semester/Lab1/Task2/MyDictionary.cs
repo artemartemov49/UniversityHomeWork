@@ -16,7 +16,7 @@
 
         public MyDictionary(int capacity)
         {
-            this._capacity = capacity;
+            _capacity = capacity;
             _nodes = new Node<TKey, TValue>[capacity];
         }
 
@@ -82,20 +82,18 @@
             {
                 return node.Value;
             }
-            else
-            {
-                while (node.Next != null && !node.Equals(node.Next))
-                {
-                    node = node.Next;
-                }
 
-                return node.Value;
+            while (node.Next != null && !node.Equals(node.Next))
+            {
+                node = node.Next;
             }
+
+            return node.Value;
         }
 
         private Node<TKey, TValue>[] resize()
         {
-            int newCap = _capacity > DefaultCapacity
+            var newCap = _capacity > DefaultCapacity
                 ? _capacity + (_capacity / 2)
                 : DefaultCapacity + (_capacity / 2);
             var newNodes = new Node<TKey, TValue>[newCap];
