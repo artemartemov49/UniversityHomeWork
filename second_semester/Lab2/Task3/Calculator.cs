@@ -1,23 +1,63 @@
-﻿namespace Task3;
+﻿using System.Globalization;
+using System.Text;
+using System.Text.RegularExpressions;
 
-public class Calculator
+namespace Task3;
+
+public class Calculator : BasicCalculator
 {
-    public static decimal Calculate(decimal firstNumber, decimal secondNumber, char operationChar)
+    private static readonly char[] PriorityOperations =
     {
-        return operationChar switch
-        {
-            '+' => AddValue(firstNumber, secondNumber),
-            '-' => Subtract(firstNumber, secondNumber),
-            '/' => Divide(firstNumber, secondNumber),
-            '*' => Multiply(firstNumber, secondNumber),
-            _ => 0
-        };
+        '/', '*'
+    };
+
+    private static readonly char[] OrdinalOperations =
+    {
+        '+', '-'
+    };
+
+    private static readonly char[] AllOperations =
+    {
+        '+', '-', '*', '/'
+    };
+
+    public static decimal Calculate(string value)
+    {
+        EvaluateOperations(ref value, PriorityOperations);
+        EvaluateOperations(ref value, OrdinalOperations);
+
+
+        Console.WriteLine($"Your result is: {value}");
+        return decimal.Parse(value);
     }
 
-    private static decimal AddValue(decimal v1, decimal v2) => decimal.Add(v1, v2);
+    private static void EvaluateOperations(ref string value, char[] operations)
+    {
+        var charIndex = value.IndexOfAny(operations);
 
-    private static decimal Subtract(decimal v1, decimal v2) => decimal.Subtract(v1, v2);
 
-    private static decimal Divide(decimal v1, decimal v2) => decimal.Divide(v1, v2);
-    private static decimal Multiply(decimal v1, decimal v2) => decimal.Multiply(v1, v2);
+        while (charIndex != -1)
+        {
+            var indexOfRightLastNumber = value.IndexOfAny(AllOperations, charIndex + 1);
+            var indexOfLeftFirstNumber = value[..(charIndex - 1)].LastIndexOfAny(AllOperations);
+
+            indexOfRightLastNumber = indexOfRightLastNumber == -1
+                ? value.Length
+                : indexOfRightLastNumber;
+
+
+            var firstNumber = value.Substring(indexOfLeftFirstNumber + 1, charIndex - indexOfLeftFirstNumber - 1);
+            var secondNumber = value.Substring(charIndex + 1, indexOfRightLastNumber - charIndex - 1);
+            var operationChar = value[charIndex];
+
+            var evaluationResult =
+                BasicCalculator.CalculateFormula(decimal.Parse(firstNumber), decimal.Parse(secondNumber), operationChar);
+
+            value = value.Replace(
+                value.Substring(indexOfLeftFirstNumber + 1, indexOfRightLastNumber - indexOfLeftFirstNumber - 1),
+                evaluationResult.ToString(CultureInfo.CurrentCulture));
+
+            charIndex = value.IndexOfAny(operations, 1);
+        }
+    }
 }

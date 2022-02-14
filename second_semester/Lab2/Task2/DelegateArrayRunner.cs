@@ -20,7 +20,7 @@ namespace Task2
 
         static void Main(string[] args)
         {
-            double GetArrayAvg(GetRandomValueDelegate[] values)
+            double GetArrayAvg(IEnumerable<GetRandomValueDelegate> values)
             {
                 var list = values
                     .Select(randomValue => randomValue.Invoke())

@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Func<int, int, int, double> GetAvg = (v1, v2, v3) => new List<int> {v1, v2, v3}.Average();
-            Console.WriteLine(GetAvg(1, 2, 3));
+            double GetAverage(int v1, int v2, int v3) => new List<int> {v1, v2, v3}.Average();
+            Console.WriteLine(GetAverage(1, 2, 3));
         }
     }
 }
