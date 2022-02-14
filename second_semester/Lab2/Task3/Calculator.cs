@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 namespace Task3;
 
 /*
- * First of all we calculate priority operation (/*), the ordinary(+-)
+ * First of all we calculate priority operation (/*), then ordinary(+-)
  *
  * Find in string first symbol (/*)
  * 3+4*5
